@@ -19,3 +19,9 @@ $ git commit -m "変更してみたよ"
 $ git push origin master  
 
 # でかいファイルのアップロード
+https://qiita.com/kanaya/items/ad52f25da32cb5aa19e6  
+$ git lfs install  
+$ git lfs track {LARGE_FILE}            # {LARGE_FILE} を登録
+$ git add .gitattributes   
+$ git add {LARGE_FILE}                  # 通常のadd  
+$ git commit -m 'I added {LARGE_FILE}.' # 通常のcommit  
