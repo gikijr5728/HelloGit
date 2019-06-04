@@ -17,3 +17,5 @@ $ git commit -m "変更してみたよ"
   
 3）データの送信  
 $ git push origin master  
+
+# でかいファイルのアップロード
